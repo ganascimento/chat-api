@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <ItemGroup>
+    <ProjectReference Include="..\GADev.Chat.Application\GADev.Chat.Application.csproj" />
+    <ProjectReference Include="..\GADev.Chat.Identity\GADev.Chat.Identity.csproj" />
+    <ProjectReference Include="..\GADev.Chat.Infrastructure\GADev.Chat.Infrastructure.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Identity" Version="2.2.0" />
+  </ItemGroup>
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+</Project>
